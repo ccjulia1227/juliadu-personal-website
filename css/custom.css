@@ -1,0 +1,50 @@
+.custom-header {
+    background-image:url("../img/sea.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+ 
+.custom-dark-glow {
+    color:#F4E8DD;
+    text-shadow:1px 1px 10px #000, 1px 1px 10px rgb(29, 29, 29);
+}
+
+body {text-align: center;}
+
+h2 {
+    font-family: 'Merriweather', serif;;
+    font-weight: 900;
+} 
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.my-custom-color {background-color:lavender;}
+.tab-content >.active{
+    display: block;
+    background-color:lavenderblush;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.my-custom-color-1 {background-color:lavenderblush;}
+
+.nav-link:hover {
+    color:#000
+}
+
+.nav-link {
+    color:#fff
+}
